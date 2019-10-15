@@ -15,10 +15,8 @@ Use the starter code and commit each step of the exercise.
 ## Instructions
 
 1. Fork and clone this repository.
-2. Checkout a new branch called '**YOUR-NAME**-solution'
-   > `$ git checkout -b` `<your-name-solution>`
-3. Fullfill the listed requirements.
-4. When you're finished, push your solution branch to your fork (`git push -u origin <branch-name>`) and issue a **pull request**.
+1. Fullfill the listed requirements.
+1. Make a pull request to turn your work in.
 
 ### Commit 1
 
