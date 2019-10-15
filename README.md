@@ -1,13 +1,23 @@
+[![General Assembly Logo](https://camo.githubusercontent.com/1a91b05b8f4d44b5bbfb83abac2b0996d8e26c92/687474703a2f2f692e696d6775722e636f6d2f6b6538555354712e706e67)](https://generalassemb.ly/education/web-development-immersive)
+
 # Pixart
 
 For this assignment you'll be creating a Javascript painting app. When you're done, [it should display this functionality](http://ga-wdi-exercises.github.io/pixart_js/).
 
 Use the starter code and commit each step of the exercise.
-## Set up
-1. Fork and clone this repo.
+
+## Prerequisites
+
+* HTML, CSS & JavaScript
+* The DOM & DOM Selectors
+* Event Listeners & Event Handlers
+
+## Instructions
+
+1. Fork and clone this repository.
 2. Checkout a new branch called '**YOUR-NAME**-solution'
    > `$ git checkout -b` `<your-name-solution>`
-3. Work in small steps and commit frequently.
+3. Fullfill the listed requirements.
 4. When you're finished, push your solution branch to your fork (`git push -u origin <branch-name>`) and issue a **pull request**.
 
 ### Commit 1
@@ -46,3 +56,13 @@ Use the starter code and commit each step of the exercise.
 
 * Add a color swatch. You should have 3 boxes with the most recent 3 colors used. When you click on each of those boxes, it should set the current brush color back to that color.
 * Refactor your code using [event propogation](https://git.generalassemb.ly/dc-wdi-fundamentals/event-propogation).
+
+## Plagiarism
+
+Take a moment to refamiliarize yourself with the [Plagiarism policy](https://git.generalassemb.ly/DC-WDI/Administrative/blob/master/plagiarism.md). Plagiarized work will not be accepted.
+
+## [License](LICENSE)
+
+1.  All content is licensed under a CC­BY­NC­SA 4.0 license.
+1.  All software code is licensed under GNU GPLv3. For commercial use or
+    alternative licensing, please contact legal@ga.co.
