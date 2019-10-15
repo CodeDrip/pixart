@@ -45,3 +45,4 @@ Use the starter code and commit each step of the exercise.
 ### Bonus
 
 * Add a color swatch. You should have 3 boxes with the most recent 3 colors used. When you click on each of those boxes, it should set the current brush color back to that color.
+* Refactor your code using [event propogation](https://git.generalassemb.ly/dc-wdi-fundamentals/event-propogation).
