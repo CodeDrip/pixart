@@ -14,12 +14,12 @@ colorInput.addEventListener("submit", function(evt){
 })
 
 var i;
-for(i=0; i < 20; i++){
+for(i=0; i < 8000; i++){
     var msPaintBox = document.createElement('div');
     msPaintBox.className = "square"
     document.getElementsByTagName('body')[0].appendChild(msPaintBox);
     msPaintBox.classList = "square"
-    msPaintBox.addEventListener("click", function(evt) {
+    msPaintBox.addEventListener("mouseover", function(evt) {
         evt.preventDefault();
         evt.target.style.background = "green"
     })
