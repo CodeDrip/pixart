@@ -13,6 +13,23 @@ colorInput.addEventListener("submit", function(evt){
     = document.querySelector("#color-field").value;
 })
 
+
+
+var i;
+for(i=0; i < 20; i++){
+    var msPaintBox = document.createElement('div');
+    msPaintBox.className = "square"
+    document.getElementsByTagName('body')[0].appendChild(msPaintBox);
+}
+
+
+
+
+
+
+
+
+
 // var artsy = document.createElement('div');
 // document.body.appendChild(artsy);
 // artsy.classList.add(artsy);
@@ -33,6 +50,3 @@ colorInput.addEventListener("submit", function(evt){
 //assign input value to "style.backgroundColor"
 
 
-//check colorbox color
-// colorBox.style.backgroundColor
-// document.querySelector("div.brush").style.backgroundColor

@@ -28,3 +28,11 @@ h1 {
 body {
   background-image: url('ps_neutral.png');
 }
+
+.square {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
+}
