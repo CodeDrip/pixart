@@ -13,14 +13,27 @@ colorInput.addEventListener("submit", function(evt){
     = document.querySelector("#color-field").value;
 })
 
-
-
 var i;
 for(i=0; i < 20; i++){
     var msPaintBox = document.createElement('div');
     msPaintBox.className = "square"
     document.getElementsByTagName('body')[0].appendChild(msPaintBox);
+    msPaintBox.classList = "square"
+    msPaintBox.addEventListener("click", function(evt) {
+        evt.preventDefault();
+        evt.target.style.background = "green"
+    })
 }
+
+// for(i=0; i < 20; i++){
+//     document.querySelectorAll(".square").style.background 
+//     = document.querySelector("#color-field").value;
+// }    
+
+
+
+
+
 
 
 
