@@ -21,7 +21,8 @@ for(i=0; i < 8000; i++){
     msPaintBox.classList = "square"
     msPaintBox.addEventListener("mouseover", function(evt) {
         evt.preventDefault();
-        evt.target.style.background = "green"
+        evt.target.style.background 
+        = document.querySelector("#color-field").value;
     })
 }
 
