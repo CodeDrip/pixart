@@ -70,7 +70,7 @@
 //form > button target
 
 let colorInput = document.querySelector("#form")
-console.log(colorInput)
+// console.log(colorInput)
 
 colorInput.addEventListener("submit", function(evt){
     evt.preventDefault();
